@@ -227,11 +227,10 @@ footer {
 }
 
 /* RESPONSIVENESS */
-/* responsiveness fixes */
 @media (max-width: 1024px) {
     .about-container {
-        flex-direction: column; /* stack image first */
-        align-items: center; /* center horizontally */
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         gap: 2rem;
     }
@@ -239,21 +238,20 @@ footer {
         width: 25vw;
         height: 25vw;
         order: 0;
-        margin: 0 auto; /* center */
+        margin: 0 auto;
     }
     .text {
         order: 1;
-        width: 90%; /* optional to keep text within container */
+        width: 90%;
     }
     .description, #paragraph {
         text-align: center;
     }
 }
 
-/* Large Mobile to Small Mobile fixes */
 @media (max-width: 425px) {
     body {
-        padding: 2vh 2vw; /* reduce side padding for small screens */
+        padding: 2vh 2vw;
     }
 
     .about-container {
@@ -262,7 +260,7 @@ footer {
         text-align: center;
         gap: 1.5rem;
         width: 100%;
-        margin: 0 auto; /* center container */
+        margin: 0 auto;
     }
 
     .profile-pic {
@@ -272,7 +270,7 @@ footer {
     }
 
     .text {
-        width: 90%; /* allow content to scale */
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -282,7 +280,7 @@ footer {
 
     #projects, #tech {
         width: 95%;
-        margin: 2vh auto; /* center these containers */
+        margin: 2vh auto;
         padding: 1.5vh 1.5vw;
     }
 
